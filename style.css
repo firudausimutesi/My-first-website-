@@ -9,14 +9,14 @@ nav{
     text-align: center;
 }
 nav a{
-    color: wheat;
+    color: white;
     margin: 15px;
     text-decoration: none;
     font-weight: bold;
 }section{
     padding: 40px;
     margin: 20px;
-    background: wheat;
+    background: white;
     border-radius: 10px;
 }
 h1,h2,h3{color: green;}
@@ -37,12 +37,12 @@ table{
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    background: wheat;
+    background: white;
 }
 table,th,td{border: 1px solid #ccc;}
 th{
     background: green;
-    color: wheat;
+    color: white;
     padding: 12px;
 }
 td{
@@ -60,7 +60,7 @@ tr:hover{background: #dff5df;}
     margin: 20px;
 }
 .cards{
-    background: wheat;
+    background: white;
     width: 300px;
     padding: 20px;
     border-radius: 15px;
@@ -89,7 +89,7 @@ nav{
 }
 
 nav a{
-    color: wheat;
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
@@ -129,7 +129,7 @@ nav a{
 }
 
 .contact-form{
-    background: wheat;
+    background: white;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
@@ -148,7 +148,7 @@ form input,form textarea{
 textarea{height: 120px;}
 
 .contact-info{
-    background: wheat;
+    background: white;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
@@ -171,7 +171,7 @@ textarea{height: 120px;}
 
 .what-hero{
     background: linear-gradient(green,darkgreen);
-    color: wheat;
+    color: white;
     text-align: center;
     padding: 80px 20px;
 }
@@ -188,7 +188,7 @@ textarea{height: 120px;}
 }
 
 .service-card{
-    background: wheat;
+    background: white;
     width: 300px;
     border-radius: 15px;
     overflow: hidden;
