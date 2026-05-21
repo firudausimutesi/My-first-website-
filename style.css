@@ -16,7 +16,7 @@ nav a{
 }section{
     padding: 40px;
     margin: 20px;
-    background: white;
+    background: wheat;
     border-radius: 10px;
 }
 h1,h2,h3{color: green;}
@@ -37,12 +37,12 @@ table{
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    background: white;
+    background: wheat;
 }
 table,th,td{border: 1px solid #ccc;}
 th{
     background: green;
-    color: white;
+    color: wheat;
     padding: 12px;
 }
 td{
@@ -51,7 +51,7 @@ td{
 }
 tr:nth-child(even){background: #f2f2f2;}
 tr:hover{background: #dff5df;}
-/*cards / containers */
+
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -60,7 +60,7 @@ tr:hover{background: #dff5df;}
     margin: 20px;
 }
 .cards{
-    background: white;
+    background: wheat;
     width: 300px;
     padding: 20px;
     border-radius: 15px;
@@ -73,7 +73,7 @@ tr:hover{background: #dff5df;}
 .card h3{
     color: green;
 }
-/*Navigation */
+
 nav{
     background: green;
     padding: 15px;
@@ -81,16 +81,133 @@ nav{
     align-items: center;
     gap: 20px;
 }
-/* Logo */
+
 .logo img{
     width: 70px;
     height: 70px;
     border-radius: 50%;
 }
-/* Navigation Linkx */
+
 nav a{
-    color: white;
+    color: wheat;
     text-decoration: none;
     font-weight: bold;
 }
+
+.banner{
+    width: 100%;
+    text-align: center;
+    background: #f4f4f4;
+    padding: 20px;
+}
+.banner img{
+    width: 90%;
+    max-width: 1200px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.profile-card{
+    text-align: left;
+}
+
+.profile-image{
+    width: 230px;
+    height: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 5px solid green;
+    margin-bottom: 15px;
+}
+
+.contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact-form{
+    background: wheat;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 400px;
+}
+
+form input,form textarea{
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+textarea{height: 120px;}
+
+.contact-info{
+    background: wheat;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 300px;
+}
+
+.canvas-section{
+    text-align: center;
+    padding: 40px 20px;
+    background: #f4f4f4;
+}
+
+.canvas-image{
+    width: 95%;
+    max-width: 1300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    margin-top: 20px;
+}
+
+.what-hero{
+    background: linear-gradient(green,darkgreen);
+    color: wheat;
+    text-align: center;
+    padding: 80px 20px;
+}
+.hero-content{
+    max-width: 700;
+    margin: auto;
+}
+.hero-content h3{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.hero-content p{
+    font-size: 20px;
+}
+
+.service-card{
+    background: wheat;
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-align: center;
+}
+.service-card:hover{
+    transform: translateY(-8px);
+}
+.service-card img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+.service-card h3{
+    color: green;
+    margin-top: 15px;
+}
+.service-card p{
+    padding: 15px;
 }
